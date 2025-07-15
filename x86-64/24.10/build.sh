@@ -57,7 +57,7 @@ PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
 PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 # === 添加 Intel SR-IOV 驱动 ===
-PACKAGES="$PACKAGES kmod-i40evf"
+PACKAGES="$PACKAGES kmod-i40e kmod-ixgbe kmod-e1000 kmod-e1000e kmod-igb"
 
 # ============= imm仓库外的第三方插件==============
 # ============= 若启用 则打开注释 ================
